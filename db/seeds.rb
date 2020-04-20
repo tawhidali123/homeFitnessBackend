@@ -5,3 +5,12 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+Workout.delete_all
+
+
+
+workout1 = Workout.create(name: 'Pushup')
+
+puts 'seeded done'
